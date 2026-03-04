@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cultural Events - CampusEvents</title>
+    <link rel="stylesheet" href="/src/index.css">
+    <script type="module" src="/src/script.js"></script>
+</head>
+<body class="p-4 md:p-8">
+    <nav class="max-w-7xl mx-auto flex items-center justify-between mb-12">
+        <a href="home.html" class="text-2xl font-bold text-white">CampusEvents</a>
+        <div class="flex gap-6 items-center">
+            <a href="home.html" class="nav-link">Home</a>
+            <a href="login.html" class="btn-gradient !py-2 !px-4 text-sm">Sign In</a>
+        </div>
+    </nav>
+
+    <main class="max-w-7xl mx-auto">
+        <button onclick="window.history.back()" class="flex items-center text-white/80 hover:text-white mb-6 transition-colors font-medium">
+            <span class="mr-2 text-xl">←</span> Back
+        </button>
+        <div class="mb-12">
+            <h1 class="text-4xl font-bold text-white mb-2">🎭 Cultural Events</h1>
+            <p class="text-white/80">Unleash your creativity and talent.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Event 1 -->
+            <div class="event-card">
+                <h3 class="text-xl font-bold text-gray-800">Thunder Thursday</h3>
+                <p class="text-gray-500">Weekly talent showcase featuring music and dance performances.</p>
+                <div class="mt-auto pt-4">
+                    <button class="btn-gradient w-full register-btn" data-event="Thunder Thursday">Register Now</button>
+                </div>
+            </div>
+
+            <!-- Event 2 -->
+            <div class="event-card">
+                <h3 class="text-xl font-bold text-gray-800">Street Vibes (Flash Mob)</h3>
+                <p class="text-gray-500">Join the ultimate street dance battle and flash mob experience.</p>
+                <div class="mt-auto pt-4">
+                    <button class="btn-gradient w-full register-btn" data-event="Street Vibes (Flash Mob)">Register Now</button>
+                </div>
+            </div>
+
+            <!-- Event 3 -->
+            <div class="event-card">
+                <h3 class="text-xl font-bold text-gray-800">Freshers Event</h3>
+                <p class="text-gray-500">A warm welcome to the newcomers with music, fun, and games.</p>
+                <div class="mt-auto pt-4">
+                    <button class="btn-gradient w-full register-btn" data-event="Freshers Event">Register Now</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

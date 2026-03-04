@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - CampusEvents</title>
+    <link rel="stylesheet" href="/src/index.css">
+    <script type="module" src="/src/script.js"></script>
+</head>
+<body class="p-4 md:p-8">
+    <!-- Common Navbar -->
+    <nav class="max-w-7xl mx-auto flex items-center justify-between mb-12">
+        <a href="home.html" class="text-2xl font-bold text-white">CampusEvents</a>
+        <div class="flex gap-6 items-center">
+            <a href="home.html" class="nav-link">Home</a>
+            <a href="login.html" class="btn-gradient !py-2 !px-4 text-sm">Sign In</a>
+        </div>
+    </nav>
+
+    <main class="max-w-7xl mx-auto">
+        <div class="text-center mb-16">
+            <h1 class="text-4xl md:text-6xl font-bold text-white mb-4">Discover Campus Events</h1>
+            <p class="text-white/80 text-lg">Explore and register for upcoming activities across categories.</p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Cultural -->
+            <a href="culturals.html" class="category-card">
+                <div class="w-16 h-16 bg-pink-100 rounded-full flex items-center justify-center mb-6">
+                    <span class="text-3xl">🎭</span>
+                </div>
+                <h3 class="text-xl font-bold text-gray-800">Cultural</h3>
+                <p class="text-gray-500 mt-2">Music, Dance, and Arts</p>
+            </a>
+
+            <!-- Sports -->
+            <a href="sports.html" class="category-card">
+                <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
+                    <span class="text-3xl">🏅</span>
+                </div>
+                <h3 class="text-xl font-bold text-gray-800">Sports</h3>
+                <p class="text-gray-500 mt-2">Athletics and Team Sports</p>
+            </a>
+
+            <!-- Technical Fest -->
+            <a href="technical.html" class="category-card">
+                <div class="w-16 h-16 bg-cyan-100 rounded-full flex items-center justify-center mb-6">
+                    <span class="text-3xl">💻</span>
+                </div>
+                <h3 class="text-xl font-bold text-gray-800">Technical Fest</h3>
+                <p class="text-gray-500 mt-2">Hackathons and Tech Quizzes</p>
+            </a>
+
+            <!-- Camp & Volunteering -->
+            <a href="camp.html" class="category-card">
+                <div class="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mb-6">
+                    <span class="text-3xl">🩺</span>
+                </div>
+                <h3 class="text-xl font-bold text-gray-800">Camp & Volunteering</h3>
+                <p class="text-gray-500 mt-2">Blood Camps and NSS</p>
+            </a>
+
+            <!-- SABL Activities -->
+            <a href="sabl.html" class="category-card">
+                <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-6">
+                    <span class="text-3xl">📢</span>
+                </div>
+                <h3 class="text-xl font-bold text-gray-800">SABL Activities</h3>
+                <p class="text-gray-500 mt-2">Leadership and Updates</p>
+            </a>
+
+            <!-- Student Clubs -->
+            <a href="clubs.html" class="category-card">
+                <div class="w-16 h-16 bg-emerald-100 rounded-full flex items-center justify-center mb-6">
+                    <span class="text-3xl">🎨</span>
+                </div>
+                <h3 class="text-xl font-bold text-gray-800">Student Clubs</h3>
+                <p class="text-gray-500 mt-2">Abhinaya, Ajintha, and more</p>
+            </a>
+        </div>
+    </main>
+</body>
+</html>

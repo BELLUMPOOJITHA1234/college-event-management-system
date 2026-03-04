@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - CampusEvents</title>
+    <link rel="stylesheet" href="/src/index.css">
+    <script type="module" src="/src/script.js"></script>
+</head>
+<body class="flex items-center justify-center p-4">
+    <div class="glass-card w-full max-w-md">
+        <div class="text-center mb-8">
+            <a href="home.html" class="text-3xl font-bold text-gray-800 hover:text-primary-mid transition-colors">CampusEvents</a>
+            <p class="text-gray-500 mt-2">Create your student account</p>
+        </div>
+        
+        <form action="login.html" class="space-y-6">
+            <div>
+                <label class="block text-sm font-semibold text-gray-700 mb-2">College Mail ID</label>
+                <input type="email" placeholder="e.g. 21XX1A0501@college.edu" class="input-field" required>
+            </div>
+            <div>
+                <label class="block text-sm font-semibold text-gray-700 mb-2">Password</label>
+                <input type="password" placeholder="••••••••" class="input-field" required>
+            </div>
+            <div>
+                <label class="block text-sm font-semibold text-gray-700 mb-2">Re-enter Password</label>
+                <input type="password" placeholder="••••••••" class="input-field" required>
+            </div>
+            
+            <button type="submit" class="btn-gradient w-full">Sign Up</button>
+        </form>
+        
+        <div class="mt-8 text-center">
+            <p class="text-sm text-gray-600">
+                Already have an account? 
+                <a href="login.html" class="text-primary-mid font-bold hover:underline">Sign In</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>

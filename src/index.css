@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-start: #2F80ED;
+  --color-primary-mid: #9B51E0;
+  --color-primary-end: #F06292;
+  --color-btn-start: #8E2DE2;
+  --color-btn-end: #E91E63;
+}
+
+@layer base {
+  body {
+    @apply min-h-screen font-sans text-gray-900;
+    background: linear-gradient(135deg, var(--color-primary-start), var(--color-primary-mid), var(--color-primary-end));
+    background-attachment: fixed;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-white/95 backdrop-blur-md rounded-[24px] shadow-lg border border-white/20 p-8 transition-all duration-300 hover:shadow-xl;
+  }
+
+  .btn-gradient {
+    @apply px-6 py-3 rounded-full font-semibold text-white transition-all duration-300 transform shadow-md hover:scale-105 active:scale-95;
+    background: linear-gradient(to right, var(--color-btn-start), var(--color-btn-end));
+  }
+
+  .input-field {
+    @apply w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-primary-mid/50 transition-all;
+  }
+
+  .nav-link {
+    @apply text-white/80 hover:text-white font-medium transition-colors;
+  }
+
+  .category-card {
+    @apply bg-white/95 backdrop-blur-md rounded-[24px] shadow-lg border border-white/20 p-8 transition-all duration-300 hover:shadow-xl;
+    @apply flex flex-col items-center justify-center text-center cursor-pointer hover:-translate-y-2;
+  }
+
+  .event-card {
+    @apply bg-white/95 backdrop-blur-md rounded-[24px] shadow-lg border border-white/20 p-8 transition-all duration-300 hover:shadow-xl;
+    @apply flex flex-col gap-4;
+  }
+}
