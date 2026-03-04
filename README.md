@@ -1,11 +1,5 @@
 # 🎓 College Event Management System
 
-[![Node.js](https://img.shields.io/badge/Node.js-Backend-green)]()
-[![JavaScript](https://img.shields.io/badge/JavaScript-Language-yellow)]()
-[![HTML](https://img.shields.io/badge/HTML-Frontend-orange)]()
-[![CSS](https://img.shields.io/badge/CSS-Styling-blue)]()
-[![License](https://img.shields.io/badge/License-Academic-lightgrey)]()
-
 🌐 **Live Demo:**
 👉 **https://college-event-management-system-rho.vercel.app/home.html**
 
