@@ -1,15 +1,26 @@
-# Run and Deploy Your App
+# 🎉 College Event Management System
 
-This contains everything you need to run your app locally.
+A modern web application to manage and showcase college events including Technical, Cultural, Sports, and Club activities.
 
-## Run Locally
+---
 
-**Prerequisites:** Node.js
+## 🚀 Features
 
-1. Install dependencies:
-   npm install
+- 📅 View upcoming events
+- 📝 Event registration
+- 🏆 Technical, Cultural & Sports categories
+- 👤 User-friendly interface
+- 🔐 Secure API key configuration
 
-2. Set the GEMINI_API_KEY in .env.local
+---
 
-3. Run the app:
-   npm run dev
+## 🛠️ Tech Stack
+
+- Frontend: HTML, CSS, JavaScript
+- Backend: Node.js
+- API: Gemini API
+- Version Control: Git & GitHub
+
+---
+
+## 📂 Project Structure
